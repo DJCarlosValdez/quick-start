@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    /* background-image: linear-gradient(to top, #fff3e8 0%, #e2d1c3 100%); */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+    background-attachment: fixed;
+}
+
+.navbar {
+    height: 80px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.500);
+    -webkit-app-region: drag
+}
+
+.navbar > .button {
+    float: right;
+}
+
+.box {
+    height: 100%;
+}
+
+.buttons-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    margin: 20px 0px;
+    background-image: linear-gradient(to left, #00a6d4 0%, #005bea 100%);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-app-region: no-drag;
+    -webkit-user-select: none;
+    transition: 0.6s box-shadow;
+}
+
+.button p {
+    color: white;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 10px 2px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.button-block {
+    width: 80% !important;
+}
+
+.button-circle {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.button-circle p {
+    font-size: 2em;
+    margin: 0px;
+}
+
+.text-input {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.text-input input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    /* border: 1px solid lightgray; */
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    padding: 0px 20px;
+    font-size: 1em;
+    -webkit-app-region: no-drag;
+    -webkit-user-select: none;
+    /* transition: 0.6s box-shadow; */
+    
+}
+
+.text-input ::placeholder {
+    font-weight: 200;
+    color: lightgray;
+}
+
+.text-input:hover {
+    cursor: pointer;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-input {
+    width: 80%;
+    margin: 0px 0px 40px 0px;
+}
+
+table {
+    /* background-color: white; */
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 10px; 
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+    color: white;
+}
+
+th, td {
+    border-bottom: 1px solid lightgray;
+    padding: 16px;
+
+}
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table tr:last-child > td {
+    border-bottom: none;
+}
+
+table i {
+    float: right;
+    margin-left: 10px;
+    color: white
+}
+
+table i:hover {
+    cursor: pointer;
+}
+
+#submit {
+    border-radius: 10px !important;
+    display: flex;
+    text-align: center;
+    width: 100% !important;
+}
+
+#submit p {
+    margin: 0;
+}
+
+::-webkit-scrollbar {     
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.500);
+    border-radius: 8px
+}

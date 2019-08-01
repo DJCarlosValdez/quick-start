@@ -1,0 +1,14 @@
+{
+    "Test1": {
+        "name": "Test1",
+        "exe": [
+            "C:\\Program Files (x86)\\epson\\Epson Scan 2\\Core\\es2launcher.exe"
+        ]
+    },
+    "Test2": {
+        "exe": [
+            "C:\\Users\\carlo\\AppData\\Roaming\\Spotify\\Spotify.exe"
+        ],
+        "name": "Test2"
+    }
+}

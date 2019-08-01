@@ -1,0 +1,17 @@
+{
+    "Test1": {
+        "name": "Test1",
+        "exe": [
+            "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "C:\\Program Files\\MySQL\\MySQL Workbench 8.0 CE\\MySQLWorkbench.exe",
+            "C:\\Users\\carlo\\AppData\\Roaming\\Spotify\\Spotify.exe",
+            "C:\\Users\\carlo\\AppData\\Local\\hyper\\Hyper.exe"
+        ]
+    },
+    "Test2": {
+        "exe": [
+            "C:\\Users\\carlo\\AppData\\Roaming\\Spotify\\Spotify.exe"
+        ],
+        "name": "Test2"
+    }
+}

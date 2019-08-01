@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Group</title>
+    <script src="https://kit.fontawesome.com/289c7f6be8.js"></script>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="button" id="exit">
+            <p>Exit</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="form-wrapper">
+            <div class="text-input">
+                <input type="text" name="Group Name" id="editorGroupName" placeholder="Group Name:">
+            </div>
+            <div class="links-input">
+                <table>
+                    <tr class="links-title">
+                        <th>Links</th>
+                    </tr>
+                    <tr id="addEXE">
+                        <td>Add another program<i class="fas fa-plus"></i></td>
+                    </tr>
+                </table>
+                <div class="button button-block" id="submit">
+                    <p>Create Group</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="buttons-wrapper">
+        </div>
+    </div>
+
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+    <script src="jquery.js"></script>
+    <script src="editor.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>
